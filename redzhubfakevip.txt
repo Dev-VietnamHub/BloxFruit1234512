@@ -10254,9 +10254,7 @@ v496:AddToggle({
     Name = "Bring Mob",
     Description = "",
     Default = true,
-    Callback = function(v1165)
-        _G.BringMonster = v1165
-        StopTween(_G.BringMonster)
+    Callback = function()
     end
 })
 spawn(function()
